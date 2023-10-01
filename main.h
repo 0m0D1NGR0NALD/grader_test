@@ -9,7 +9,7 @@
 
 int add_digits(double num1, double num2){
    // put your code here
-   return num1 + num2
+   return num1 + num2;
 }
 
 
