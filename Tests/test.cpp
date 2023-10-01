@@ -2,11 +2,11 @@
 #include "catch.hpp"
 #include "../main.h"
 
-double value_t1 = 1234.56;
-double value_t2 = 1789895.61;
+double value_t1 = 1;
+double value_t2 = 5;
 
 TEST_CASE( "Tests_1", "Tests" ) {
-    REQUIRE( is_valid(value_t1) == 0);
+    REQUIRE( add_digits(value_t1,value_t2) == 6);
 }
 
 TEST_CASE( "Tests_2", "Tests" ) {
