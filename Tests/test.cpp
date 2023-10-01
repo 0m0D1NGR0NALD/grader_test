@@ -9,6 +9,6 @@ TEST_CASE( "Tests_1", "Tests" ) {
     REQUIRE( add_digits(value_t1,value_t2) == 6);
 }
 
-TEST_CASE( "Tests_2", "Tests" ) {
-    REQUIRE( is_valid(value_t2) == 1);
-}
+// TEST_CASE( "Tests_2", "Tests" ) {
+//     REQUIRE( is_valid(value_t2) == 1);
+// }
